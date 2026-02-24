@@ -45,7 +45,7 @@ model = SimpleNN(input_size=20)
 
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
-EPOCHS = 200
+EPOCHS = 250
 
 print("Training model...\n")
 
